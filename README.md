@@ -6,10 +6,10 @@ GS FIAP 2026.2 · CitizenTech · Engenharia de Software 4ES
 
 | Nome completo | RM |
 | --- | --- |
-| (preencher) | RM |
-| (preencher) | RM |
-| (preencher) | RM |
-| (preencher) | RM |
+| (Enzo Luiz Goulart) | RM99666 |
+| (João Pedro Cruz) | RM98650 |
+| (Tiago Paulino) | RM55119 |
+| (Victor Eid) | RM98668 |
 
 ## Ficha Técnica do MVP
 
