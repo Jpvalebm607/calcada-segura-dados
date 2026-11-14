@@ -1,0 +1,20 @@
+# Airflow 3 local, modo standalone (scheduler + api-server + dag-processor num container só).
+# Subir:   docker compose up -d      Abrir: http://localhost:8080
+# Pausar:  docker compose stop  (NÃO use 'down': ele apaga o histórico de execuções do container)
+services:
+  airflow:
+    image: apache/airflow:3.1.0
+    command: standalone
+    user: "${AIRFLOW_UID:-50000}:0"
+    ports:
+      - "8080:8080"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: "America/Sao_Paulo"
+      # Uso só local: sem tela de login. Não exponha esta porta na internet.
+      AIRFLOW__CORE__SIMPLE_AUTH_MANAGER_ALL_ADMINS: "True"
+      CHEGADA_DIR: /opt/airflow/chegada
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./chegada:/opt/airflow/chegada
+    restart: unless-stopped

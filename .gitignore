@@ -1,0 +1,8 @@
+chegada/*
+!chegada/.gitkeep
+logs/
+__pycache__/
+*.pyc
+.env
+*.tfvars
+simple_auth_manager_passwords.json*
