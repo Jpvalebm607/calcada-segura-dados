@@ -20,7 +20,7 @@ GS FIAP 2026.2 · CitizenTech · Engenharia de Software 4ES
 | Problema | Buracos, rampas fora da norma e barreiras nas calçadas não são fiscalizados |
 | Proposta de valor | Robô e visão computacional inspecionam a calçada; o sistema prioriza e encaminha o conserto |
 | Fontes de dados | SP156 (Prefeitura de SP), Open-Meteo, ocorrências do robô (API Calçada Segura) |
-| URL do MVP | (preencher) |
+| URL do MVP | (https://calcada-segura-nc-6iey3.northcentralus.cloudapp.azure.com) |
 
 ## Perguntas que o MVP responde
 
