@@ -1,4 +1,4 @@
-# Calçada Segura — componente Dados (Big Data Architecture & Data Integration)
+# Calçada Segura — Componente Dados (Big Data Architecture & Data Integration)
 
 GS FIAP 2026.2 · CitizenTech · Engenharia de Software 4ES
 
@@ -6,10 +6,10 @@ GS FIAP 2026.2 · CitizenTech · Engenharia de Software 4ES
 
 | Nome completo | RM |
 | --- | --- |
-| (Enzo Luiz Goulart) | RM99666 |
-| (João Pedro Cruz) | RM98650 |
-| (Tiago Paulino) | RM551169 |
-| (Victor Eid) | RM98668 |
+| Enzo Luiz Goulart | RM99666 |
+| João Pedro Cruz | RM98650 |
+| Tiago Paulino | RM551169 |
+| Victor Eid | RM98668 |
 
 ## Ficha Técnica do MVP
 
